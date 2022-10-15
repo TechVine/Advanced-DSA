@@ -19,5 +19,6 @@ it is the product of some integer with itself. For example, 1, 4, 9, and 16 are 
  
 
 ### Constraints:
+    1 <= n <= 10^4
 
-1 <= n <= 10^4
+### You can use any language to solve this
