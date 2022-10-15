@@ -1,8 +1,8 @@
-### You have a convex n-sided polygon where each vertex has an integer value. You are given an integer array values where values[i] is the value of the ith vertex (i.e., clockwise order).
+You have a convex n-sided polygon where each vertex has an integer value. You are given an integer array values where values[i] is the value of the ith vertex (i.e., clockwise order).
 
-#### You will triangulate the polygon into n - 2 triangles. For each triangle, the value of that triangle is the product of the values of its vertices, and the total score of the triangulation is the sum of these values over all n - 2 triangles in the triangulation.
+You will triangulate the polygon into n - 2 triangles. For each triangle, the value of that triangle is the product of the values of its vertices, and the total score of the triangulation is the sum of these values over all n - 2 triangles in the triangulation.
 
-#### Return the smallest possible total score that you can achieve with some triangulation of the polygon.![Screenshot 2022-10-15 132928](https://user-images.githubusercontent.com/115523060/195976173-5707329b-07fb-4362-923c-29cb0c98f8f3.png)
+Return the smallest possible total score that you can achieve with some triangulation of the polygon.
 
 
 
@@ -18,3 +18,4 @@
 
 ![Screenshot 2022-10-15 133122](https://user-images.githubusercontent.com/115523060/195976233-9511de32-0802-47e4-83ec-cc8597e0aecf.png)
 
+### You can use any language to solve this
