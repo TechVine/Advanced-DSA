@@ -1,0 +1,53 @@
+class Solution{
+
+ 
+
+ public:
+
+ vector<int> downwardDigonal(int N, vector<vector<int>> A)
+
+ {
+
+  vector<int>answer;
+
+  for(int j=0;j<N;j++){
+
+      int temp1=0;
+
+      int temp2=j;
+
+      while(temp1<N and temp2>=0){
+
+          answer.push_back(A[temp1][temp2]);
+
+          temp1++;
+
+          temp2--;
+
+      }
+
+  }
+
+  for(int i=1;i<N;i++){
+
+      int temp1=i;
+
+      int temp2=N-1;
+
+      while(temp1<N and temp2>=0){
+
+          answer.push_back(A[temp1][temp2]);
+
+          temp1++;
+
+          temp2--;
+
+      }
+
+  }
+
+  return answer;
+
+ }
+
+};
