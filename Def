@@ -1,0 +1,39 @@
+def downwardDigonal(N, A): 
+
+    # code here
+
+    ret = []
+
+    for c0 in range(N):
+
+        r, c = 0, c0
+
+        dr, dc = 1, -1
+
+        while 0 <= r < N and 0 <= c < N:
+
+            ret.append(A[r][c])
+
+            r += dr
+
+            c += dc 
+
+            
+
+    for r0 in range(1, N):
+
+        r, c = r0, N-1
+
+        dr, dc = 1, -1
+
+        while 0 <= r < N and 0 <= c < N:
+
+            ret.append(A[r][c])
+
+            r += dr
+
+            c += dc
+
+            
+
+    return ret
